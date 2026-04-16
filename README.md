@@ -71,33 +71,33 @@ To ensure the chain of trust is established correctly, scripts must be run in th
 
 ### Environment Setup
 
-Generate the cryptographic foundation:
+Generate the cryptographic foundation.
 
-   1. Create the CA
+   1. Create the CA:
       ```bash
       python3 keygen_ca.py
       ```
 
-   2. Create the server's RSA identity
+   2. Create the server's RSA identity:
       ```bash
       python3 keygen.py
       ```
 
-   3. Sign the Certificate
+   3. Sign the Certificate:
       ```bash
       python3 cert_key.py
       ```
 
 ### Deployment
 
-Start the secure environment:
+Start the secure environment.
 
-   1. Start the Flask API server
+   1. Start the Flask API server:
       ```bash
       python3 server.py
       ```
 
-   2. In a new terminal, run the client
+   2. In a new terminal, run the client:
       ```bash
       python3 client.py
       ```
