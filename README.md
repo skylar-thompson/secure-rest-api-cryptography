@@ -12,21 +12,21 @@ https://m.youtube.com/watch?v=B4CwX11r1Ms
 
 ### Libraries
    
-   * Flask: A micro web framework for building the REST API.
+   * **Flask**: A micro web framework for building the REST API.
 
-   * PyCryptodome: A self-contained cryptographic library for Python that provides the RSA, AES-GCM, and SHA-256 primitives.
+   * **PyCryptodome**: A self-contained cryptographic library for Python that provides the RSA, AES-GCM, and SHA-256 primitives.
 
-   * Requests: Used by the client to send HTTP GET/POST requests to the server.
+   * **Requests**: Used by the client to send HTTP GET/POST requests to the server.
 
 ### Installation
 
-   1. Create a virtual environment
+   1. Create a virtual environment:
    ```bash
    python3 -m venv flask-env
    source flask-env/bin/activate  # On Windows: flask-env\Scripts\activate
    ```
 
-   2. Install dependencies
+   2. Install dependencies:
    ```bash
    pip install flask pycryptodome requests
    ```
